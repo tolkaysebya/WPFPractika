@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6bd3d151f145407e8cd8d0050dfedc0c" Name="Diagram1">
+        <EntityTypeShape EntityType="ExamManagementAshmarinModel.ApplicationForm" Width="1.5" PointX="10.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExamManagementAshmarinModel.Department" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExamManagementAshmarinModel.Discipline" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExamManagementAshmarinModel.Employee" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExamManagementAshmarinModel.Engineer" Width="1.5" PointX="7.5" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExamManagementAshmarinModel.Exam" Width="1.5" PointX="12.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExamManagementAshmarinModel.Faculcy" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExamManagementAshmarinModel.Specialization" Width="1.5" PointX="5.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExamManagementAshmarinModel.Student" Width="1.5" PointX="7.5" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExamManagementAshmarinModel.Teacher" Width="1.5" PointX="7.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExamManagementAshmarinModel.ZavDepartment" Width="1.5" PointX="7.5" PointY="11.25" IsExpanded="true" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_ApplicationForm_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_ApplicationForm_Specialization1" ManuallyRouted="false" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_Department_Faculcy" ManuallyRouted="false" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_Discipline_Department1" ManuallyRouted="false" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_Employee_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_Specialization_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_Exam_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_Employee_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_Engineer_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_Exam_Employee1" ManuallyRouted="false" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_Teacher_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_ZavDepartment_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_Exam_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="ExamManagementAshmarinModel.FK_Student_Specialization" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
